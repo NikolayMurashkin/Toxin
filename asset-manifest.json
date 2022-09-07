@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Toxic/static/css/main.1e088013.css",
+    "main.js": "/Toxic/static/js/main.559994b6.js",
+    "static/js/787.4be89631.chunk.js": "/Toxic/static/js/787.4be89631.chunk.js",
+    "static/media/logo.svg": "/Toxic/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "index.html": "/Toxic/index.html",
+    "main.1e088013.css.map": "/Toxic/static/css/main.1e088013.css.map",
+    "main.559994b6.js.map": "/Toxic/static/js/main.559994b6.js.map",
+    "787.4be89631.chunk.js.map": "/Toxic/static/js/787.4be89631.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e088013.css",
+    "static/js/main.559994b6.js"
+  ]
+}
