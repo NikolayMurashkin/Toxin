@@ -1,0 +1,41 @@
+.button {
+	border-radius: 22px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	padding: 10px 20px 9px;
+}
+
+.button_secondary {
+	color: #bc9cff;
+	background: linear-gradient(#fff 0 0) padding-box, linear-gradient(180deg, rgba(188, 156, 255, 1) 0%, rgba(139, 164, 249, 1) 100%) border-box;
+	border: 1px solid transparent;
+}
+
+.button_primary {
+	color: #fff;
+	background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+
+.button_with_arrow {
+	color: #fff;
+	background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+	position: relative;
+	padding: 15px 20px 14px;
+	&::after {
+		position: absolute;
+		content: "";
+		width: 44px;
+		height: 44px;
+		top: 0;
+		right: 20px;
+		background: url("../../assets/icons/arrow_forward.svg") center no-repeat;
+		transition: all 0.3s ease 0s;
+	}
+	&:hover {
+		&::after {
+			transform: translateX(20px);
+		}
+	}
+}
